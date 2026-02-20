@@ -1,0 +1,80 @@
+Imported 20 patient records...
+Imported 15 appointment records...
+
+Veterinary Clinic System
+=========================
+1) PATIENT     Management
+2) APPOINTMENT Management
+-------------------------
+0) Exit System
+-------------------------
+Selection: 2
+
+Appointment Management
+==============================
+1) VIEW   ALL Appointments
+2) VIEW   Appointments by DATE
+3) ADD    Appointment
+4) REMOVE Appointment
+------------------------------
+0) Previous menu
+------------------------------
+Selection: 1
+
+1024
+Clinic Appointments for the Date: <ALL>
+
+Date       Time  Pat.# Name            Phone#
+---------- ----- ----- --------------- --------------------
+0 2024-02-29 10:00 01024 Shaggy Yanson   (304)800-5191 (CELL)
+1 2024-02-29 10:30 01080 Bessie Lidgely  (___)___-____ (TBD)
+2 2024-02-29 11:00 01120 Wyatt Ashness   (692)256-5724 (HOME)
+3 2024-02-29 11:30 01088 Potato Yards    (583)678-8577 (HOME)
+4 2024-02-29 12:00 01112 Archie Ashness  (692)256-5724 (HOME)
+5 2024-02-29 12:30 01128 Bug Tevlin      (___)___-____ (TBD)
+6 2024-02-29 13:00 01040 Beans Maulin    (364)915-5831 (HOME)
+7 2024-02-29 13:30 01032 Pugsley Yanson  (304)800-5191 (CELL)
+8 2024-02-29 14:00 01104 Pickles Green   (443)554-6362 (WORK)
+9 2025-02-28 11:30 01056 Lettuce Peas    (793)434-6809 (WORK)
+10 2026-06-09 14:00 01104 Pickles Green   (443)554-6362 (WORK)
+11 2026-06-20 10:30 01048 Banjo Codi      (___)___-____ (TBD)
+12 2027-03-10 11:00 01112 Archie Ashness  (692)256-5724 (HOME)
+13 2027-03-12 10:30 01024 Shaggy Yanson   (304)800-5191 (CELL)
+14 2027-03-12 10:30 01024 Shaggy Yanson   (304)800-5191 (CELL)
+15 2027-03-12 10:30 01024 Shaggy Yanson   (304)800-5191 (CELL)
+16 2027-03-12 10:30 01024 Shaggy Yanson   (304)800-5191 (CELL)
+17 2027-03-12 10:30 01024 Shaggy Yanson   (304)800-5191 (CELL)
+18 2027-03-12 10:30 01024 Shaggy Yanson   (304)800-5191 (CELL)
+19 2027-03-12 10:30 01024 Shaggy Yanson   (304)800-5191 (CELL)
+20 2027-03-12 10:30 01024 Shaggy Yanson   (304)800-5191 (CELL)
+21 2027-03-12 10:30 01024 Shaggy Yanson   (304)800-5191 (CELL)
+22 2027-03-12 10:30 01024 Shaggy Yanson   (304)800-5191 (CELL)
+23 2027-03-12 10:30 01024 Shaggy Yanson   (304)800-5191 (CELL)
+24 2027-03-12 10:30 01024 Shaggy Yanson   (304)800-5191 (CELL)
+25 2027-03-12 10:30 01024 Shaggy Yanson   (304)800-5191 (CELL)
+26 2027-03-12 10:30 01024 Shaggy Yanson   (304)800-5191 (CELL)
+27 2027-03-12 10:30 01024 Shaggy Yanson   (304)800-5191 (CELL)
+28 2027-03-12 10:30 01024 Shaggy Yanson   (304)800-5191 (CELL)
+29 2027-03-12 10:30 01024 Shaggy Yanson   (304)800-5191 (CELL)
+30 2027-03-12 10:30 01024 Shaggy Yanson   (304)800-5191 (CELL)
+31 2027-03-12 10:30 01024 Shaggy Yanson   (304)800-5191 (CELL)
+32 2027-03-12 10:30 01024 Shaggy Yanson   (304)800-5191 (CELL)
+33 2027-03-12 10:30 01024 Shaggy Yanson   (304)800-5191 (CELL)
+34 2027-03-12 10:30 01024 Shaggy Yanson   (304)800-5191 (CELL)
+35 2027-03-12 10:30 01024 Shaggy Yanson   (304)800-5191 (CELL)
+36 2027-03-12 10:30 01024 Shaggy Yanson   (304)800-5191 (CELL)
+37 2027-03-12 10:30 01024 Shaggy Yanson   (304)800-5191 (CELL)
+38 2027-03-12 10:30 01024 Shaggy Yanson   (304)800-5191 (CELL)
+39 2027-03-12 10:30 01024 Shaggy Yanson   (304)800-5191 (CELL)
+40 2027-03-12 10:30 01024 Shaggy Yanson   (304)800-5191 (CELL)
+41 2027-03-12 10:30 01024 Shaggy Yanson   (304)800-5191 (CELL)
+42 2027-03-12 10:30 01024 Shaggy Yanson   (304)800-5191 (CELL)
+43 2027-03-12 10:30 01024 Shaggy Yanson   (304)800-5191 (CELL)
+44 2027-03-12 10:30 01024 Shaggy Yanson   (304)800-5191 (CELL)
+45 2027-03-12 10:30 01024 Shaggy Yanson   (304)800-5191 (CELL)
+46 2027-03-12 10:30 01024 Shaggy Yanson   (304)800-5191 (CELL)
+47 2027-03-12 10:30 01024 Shaggy Yanson   (304)800-5191 (CELL)
+48 2027-03-12 10:30 01024 Shaggy Yanson   (304)800-5191 (CELL)
+49 2027-03-12 13:00 01112 Archie Ashness  (692)256-5724 (HOME)
+
+<ENTER> to continue...

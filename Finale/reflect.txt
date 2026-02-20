@@ -1,0 +1,67 @@
+///////////////////////////////////////////////////////////////////////////
+                              Reflection
+                            Milestone - #3
+Full Name  : Daniel Lu
+Student ID#: 16520221
+Email      : dlu28@myseneca.ca
+Section    : NMM
+
+Authenticity Declaration:
+
+I declare this submission is the result of my own work and has not been
+shared with any other student or 3rd party content provider. This submitted
+piece of work is entirely of my own creation.
+///////////////////////////////////////////////////////////////////////////
+
+
+1. In this milestone I created three sorting algormithms, each responsible with sorting data from the appointment 
+structure. 
+
+// Sort the patients appointment in chronologic order
+void bubbleSort(struct Appointment* appoints, int max);
+	The purpose of this function is to sort the appointments array and searches the indices for any patientNumber 
+that is zero. The purpose of this is to not only to put the empty indices closer to the end of the array but when 
+removing an appointment, it creates an empty space that caused issues in the program. This makes sure that the empty 
+spot is removed and put outside of the at the end of the array to prevent printing issues. If an empty spot is left 
+in between the data, when the user decides to add a appointment, this spot will immediately be filled but will not
+be sorted into the correct spot, making the output incorrect.
+
+// Sort the patients appointment times in chronologic order
+void bubbleSortTime(struct Appointment* appoints, int max);
+	The purpose of this function is to sort the appointments array from earliest to latest. This is acheived by 
+sorting the array by minutes then hours. This ignores the date of the appointments and ensures that the array is 
+sorted by time with minutes being sorted by 0 near the beginning of the array to 30 after no more minutes with 0
+remain. The sorting is done in this order because for this function to be modular, it should be able to handle more 
+specific times allowing it to not only be flexible but suits the users needs what ever that may be.
+
+// Sort the patients appointment dates in chronologic order
+void bubbleSortDate(struct Appointment* appoints, int max);
+	The purpose of this function is to sort the appointments array from earliest to latest via dates. This is 
+acheived by sorting the dates by days first, months, then years. it is done in this order because there can be 
+multiple appointments made with the same times but at different days. The same goes for sorting months, there can 
+be multiple appointments that are one the same day number but on a different month and the same is for years. In other 
+words, the sorting goes from specific dates to more general dates. Like in the previous explainations of the other 
+functions, this function is supposed to be modular and suit the users needs.
+
+2. The scanf functions were significantly minimized as the funtions created and defined in previous milestones were 
+created, the funtions can be used in this milestone to reduce repetative portions needing user inputs and the same 
+or similar error checking. Take the function inputIntRange() for example, this function returns an integer and 
+receives two integers as its arguments, the first being an integer for a minimum value and the second being an integer 
+for a maximum value. This function reduces repetative error checking structures for menus appointment times and dates.
+Functions like inputCString can be used for inputs like the name of a patients and make sure that the name entered 
+is in range of the character limit, to prevent long and unecessary names to be entered in the array, preventing 
+overflow of the data type. These existing functions created from previous milestones also implement other helpful 
+functions like the clearInputBuffer() function which is already added into functions like inputIntPositive(), 
+inputCString(), inputCharOption(), and may others to clear inputs to prevent bufferoverflow which can cause unwanted 
+outputs.
+
+3. For all three functions mentioned in question one, they are placed in the function viewAllAppointments(). The 
+sorting algorithms are in order, bubbleSort(), bubbleSortTime(), bubbleSortDate(). The purpose of the functions in 
+this order is to prevent incorrect sorting. If the sorting order were to be date, time then empty arrays, the output 
+would not be appointments ordered from earliest to latest appointments, the result would be messy as you would have 
+dates that are scheduled for the year 2027 be first on the list and dates as soon as 2024 near the bottom, which 
+does not make sense to have a list ordered like this. The way all data should be ordered is first by specifics, in 
+this case we want to sort the array to filter out empty array indices at any point when the list is displayed. Next 
+is the time in minutes as there can be 60 possibilities as there is 60 values for the minute variable to have. Once 
+time has been sorted, the months and years can be sorted without the need to worry about empty array indices being 
+sorted to the beginning of the array because the values for time and date are numerically lower than the wanted data.
