@@ -1,0 +1,78 @@
+Command Line:
+--------------------------
+  1: C:\Seneca\Term 4\OOP345\Exercise 6\x64\Debug\Exercise 6.exe
+  2: data_str.txt
+  3: data_num.txt
+--------------------------
+
+>>>  T1: Singleton
+==========:==========:==========:==========:==========
+[0000026249BF7000] Database<T>(const std::string&)
+[0000026249BFA150] Database<T>(const std::string&)
+Same database.
+Same database.
+Different database.
+Different database.
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+>>>  T2: Test Content of a String Database
+==========:==========:==========:==========:==========
+Ashleigh Barty earned $3,765,182
+Barbora Krejcikova earned $2,800,013
+Karolina Pliskova earned $2,061,970
+Unable to retrieve earnings for Leylah Fernandez
+Naomi Osaka earned $2,126,222
+Leylah Fernandez earned $786,772
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+>>>  T3: Test Content of a Numeric Database
+==========:==========:==========:==========:==========
+Ashleigh Barty earned 3765182
+Barbora Krejcikova earned 2800013
+Karolina Pliskova earned 2061970
+Unable to retrieve earnings for Leylah Fernandez
+Naomi Osaka earned 2126222
+Leylah Fernandez earned 786772
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+>>>  T4: Output File Content
+==========:==========:==========:==========:==========
+
+The content of the file [data_str.txt.bkp.txt]
+---------------------------------------------------------------------
+File size in bytes: [ 203 ]
+0001: [ 4e 61 6f 6d 69 20 4f 73 61 6b 61 20 20 20 20 20 20 20 20 20 ]
+0002: [ 20 20 20 20 20 20 2d 3e 20 24 32 2c 31 32 36 2c 32 32 32 0d ]
+0003: [ 0a 41 73 68 6c 65 69 67 68 20 42 61 72 74 79 20 20 20 20 20 ]
+0004: [ 20 20 20 20 20 20 20 2d 3e 20 24 33 2c 37 36 35 2c 31 38 32 ]
+0005: [ 0d 0a 4b 61 72 6f 6c 69 6e 61 20 50 6c 69 73 6b 6f 76 61 20 ]
+0006: [ 20 20 20 20 20 20 20 20 2d 3e 20 24 32 2c 30 36 31 2c 39 37 ]
+0007: [ 30 0d 0a 42 61 72 62 6f 72 61 20 4b 72 65 6a 63 69 6b 6f 76 ]
+0008: [ 61 20 20 20 20 20 20 20 20 2d 3e 20 24 32 2c 38 30 30 2c 30 ]
+0009: [ 31 33 0d 0a 4c 65 79 6c 61 68 20 46 65 72 6e 61 6e 64 65 7a ]
+000a: [ 20 20 20 20 20 20 20 20 20 20 2d 3e 20 24 37 38 36 2c 37 37 ]
+000b: [ 32 0d 0a ]
+---------------------------------------------------------------------
+
+The content of the file [data_num.txt.bkp.txt]
+---------------------------------------------------------------------
+File size in bytes: [ 189 ]
+0001: [ 42 61 72 62 6f 72 61 20 4b 72 65 6a 63 69 6b 6f 76 61 20 20 ]
+0002: [ 20 20 20 20 20 20 2d 3e 20 32 38 30 30 30 31 33 0d 0a 4b 61 ]
+0003: [ 72 6f 6c 69 6e 61 20 50 6c 69 73 6b 6f 76 61 20 20 20 20 20 ]
+0004: [ 20 20 20 20 2d 3e 20 32 30 36 31 39 37 30 0d 0a 41 73 68 6c ]
+0005: [ 65 69 67 68 20 42 61 72 74 79 20 20 20 20 20 20 20 20 20 20 ]
+0006: [ 20 20 2d 3e 20 33 37 36 35 31 38 32 0d 0a 4e 61 6f 6d 69 20 ]
+0007: [ 4f 73 61 6b 61 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 ]
+0008: [ 2d 3e 20 32 31 32 36 32 32 32 0d 0a 4c 65 79 6c 61 68 20 46 ]
+0009: [ 65 72 6e 61 6e 64 65 7a 20 20 20 20 20 20 20 20 20 20 2d 3e ]
+000a: [ 20 37 38 36 37 37 32 0d 0a ]
+---------------------------------------------------------------------
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+[0000026249BFA150] ~Database<T>()
+[0000026249BF7000] ~Database<T>()
+
+C:\Seneca\Term 4\OOP345\Exercise 6\x64\Debug\Exercise 6.exe (process 21696) exited with code 0.
+To automatically close the console when debugging stops, enable Tools->Options->Debugging->Automatically close the console when debugging stops.
+Press any key to close this window . . .

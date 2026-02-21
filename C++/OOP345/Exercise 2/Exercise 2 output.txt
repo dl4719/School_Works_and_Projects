@@ -1,0 +1,73 @@
+Command Line:
+--------------------------
+  1: C:\Seneca\Term 4\OOP345\Exercise 2\x64\Debug\Exercise 2.exe
+  2: protein_sequences.txt
+--------------------------
+
+  0-arg Constructor - protein_DBA.size =       0 Proteins ->
+                                     (a) Protein     0: [None][0][][]
+                                     (a) Protein    99: [None][0][][]
+                                     (a) Protein   999: [None][0][][]
+                                     (a) Protein  9999: [None][0][][]
+                                     (a) Protein 99999: [None][0][][]
+
+  1-arg Constructor - protein_DBB.size =   23012 Proteins ->
+                                     (b) Protein     0: [S6CXN1][381][MGARHLRYGREAGMNKTEIP][SALLSPQQNAEEREPAVPVS]
+                                     (b) Protein    99: [E3HJA2][561][MSTPAPGPRSGGELLVAQLQ][ADIILPDRTLSQLRRTETVA]
+                                     (b) Protein   999: [E3HQH9][427][MPQTLEVIATLLFAVAVLHT][LFLSALAPTLVAAVMFLLPV]
+                                     (b) Protein 23011: [B0BZE9][361][MAKVALITGITGQDGAYLAE][AAKRDKIIEDHGYPVPLVHE]
+                                     (b) Protein 23012: [None][0][][]
+
+  Copy Constructor  - protein_DBC.size =   23012 Proteins ->
+                                     (c) Protein     0: [S6CXN1][381][MGARHLRYGREAGMNKTEIP][SALLSPQQNAEEREPAVPVS]
+                                     (c) Protein    99: [E3HJA2][561][MSTPAPGPRSGGELLVAQLQ][ADIILPDRTLSQLRRTETVA]
+                                     (c) Protein   999: [E3HQH9][427][MPQTLEVIATLLFAVAVLHT][LFLSALAPTLVAAVMFLLPV]
+                                     (c) Protein 23011: [B0BZE9][361][MAKVALITGITGQDGAYLAE][AAKRDKIIEDHGYPVPLVHE]
+                                     (c) Protein 23012: [None][0][][]
+
+  Copy Assignment   - protein_DBA.size =   23012 Proteins ->
+                                     (a) Protein     0: [S6CXN1][381][MGARHLRYGREAGMNKTEIP][SALLSPQQNAEEREPAVPVS]
+                                     (a) Protein    99: [E3HJA2][561][MSTPAPGPRSGGELLVAQLQ][ADIILPDRTLSQLRRTETVA]
+                                     (a) Protein   999: [E3HQH9][427][MPQTLEVIATLLFAVAVLHT][LFLSALAPTLVAAVMFLLPV]
+                                     (a) Protein 23011: [B0BZE9][361][MAKVALITGITGQDGAYLAE][AAKRDKIIEDHGYPVPLVHE]
+                                     (a) Protein 23012: [None][0][][]
+
+  Move Constructor  - protein_DBD.size =   23012 Proteins ->
+                                     (a) Protein     0: [None][0][][]
+                                     (a) Protein    99: [None][0][][]
+                                     (a) Protein   999: [None][0][][]
+                                     (a) Protein 23011: [None][0][][]
+                                     (a) Protein 23012: [None][0][][]
+
+                                     (d) Protein     0: [S6CXN1][381][MGARHLRYGREAGMNKTEIP][SALLSPQQNAEEREPAVPVS]
+                                     (d) Protein    99: [E3HJA2][561][MSTPAPGPRSGGELLVAQLQ][ADIILPDRTLSQLRRTETVA]
+                                     (d) Protein   999: [E3HQH9][427][MPQTLEVIATLLFAVAVLHT][LFLSALAPTLVAAVMFLLPV]
+                                     (d) Protein 23011: [B0BZE9][361][MAKVALITGITGQDGAYLAE][AAKRDKIIEDHGYPVPLVHE]
+                                     (d) Protein 23012: [None][0][][]
+
+  Move Assignment   - protein_DBA.size =   23012 Proteins ->
+                                     (a) Protein     0: [S6CXN1][381][MGARHLRYGREAGMNKTEIP][SALLSPQQNAEEREPAVPVS]
+                                     (a) Protein    99: [E3HJA2][561][MSTPAPGPRSGGELLVAQLQ][ADIILPDRTLSQLRRTETVA]
+                                     (a) Protein   999: [E3HQH9][427][MPQTLEVIATLLFAVAVLHT][LFLSALAPTLVAAVMFLLPV]
+                                     (a) Protein 23011: [B0BZE9][361][MAKVALITGITGQDGAYLAE][AAKRDKIIEDHGYPVPLVHE]
+                                     (a) Protein 23012: [None][0][][]
+
+                                     (d) Protein     0: [None][0][][]
+                                     (d) Protein    99: [None][0][][]
+                                     (d) Protein   999: [None][0][][]
+                                     (d) Protein 23011: [None][0][][]
+                                     (d) Protein 23012: [None][0][][]
+
+Execution Times:
+-----------------------------
+  0-arg Constructor           1400 nanoseconds
+  1-arg Constructor     2375740000 nanoseconds
+  Copy Constructor        28990400 nanoseconds
+  Copy Assignment         28602600 nanoseconds
+  Move Constructor             700 nanoseconds
+  Move Assignment              500 nanoseconds
+  Destructor              16903700 nanoseconds
+-----------------------------
+
+C:\Seneca\Term 4\OOP345\Exercise 2\x64\Debug\Exercise 2.exe (process 16488) exited with code 0.
+Press any key to close this window . . .
